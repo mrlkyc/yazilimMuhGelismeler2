@@ -12,8 +12,14 @@ public class calculatorController {
 
     public int topla(@RequestParam int deger1,@RequestParam int deger2){
 
-        return deger1+ deger2;
+        return deger1 + deger2;
 
+    }
+
+    @PutMapping("/carp")
+    public int carp(@RequestParam int deger1,@RequestParam int deger2){
+
+        return deger1 + deger2;
     }
 
 }
